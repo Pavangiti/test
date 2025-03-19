@@ -14,7 +14,7 @@ st.set_page_config(page_title="Predictive Healthcare Analytics", layout="wide")
 # ----------------- DATABASE & FILE PATH SETUP -----------------
 DB_FILE = "vaccination_data.db"
 USER_DB = "users.db"
-DATASET_PATH = "/Users/pavansappidi/Desktop/TARSS/Tars1/finald.xlsx"
+DATASET_PATH = "finald.xlsx"
 
 # Function to create database connection
 def create_connection(db_path):
